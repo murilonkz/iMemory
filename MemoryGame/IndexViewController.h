@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface IndexViewController : UIViewController
-- (IBAction)btnJogar:(id)sender;
+- (IBAction)btnJogarAgora:(id)sender;
 - (IBAction)btnHighscores:(id)sender;
 @end

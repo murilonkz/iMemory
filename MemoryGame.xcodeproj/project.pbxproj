@@ -26,6 +26,21 @@
 		9495837718983B7D00C33CFF /* HighscoresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9495837518983B7D00C33CFF /* HighscoresViewController.xib */; };
 		9495837B18983C0200C33CFF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9495837918983C0200C33CFF /* GameViewController.m */; };
 		9495837C18983C0200C33CFF /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9495837A18983C0200C33CFF /* GameViewController.xib */; };
+		EB85D72E189898C90082CFD8 /* Background1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D72D189898C90082CFD8 /* Background1.jpeg */; };
+		EB85D73B1898AE490082CFD8 /* Alemanha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7301898AE490082CFD8 /* Alemanha.jpg */; };
+		EB85D73C1898AE490082CFD8 /* Argentina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7311898AE490082CFD8 /* Argentina.jpg */; };
+		EB85D73D1898AE490082CFD8 /* Chile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7321898AE490082CFD8 /* Chile.jpg */; };
+		EB85D73E1898AE490082CFD8 /* Colombia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7331898AE490082CFD8 /* Colombia.jpg */; };
+		EB85D73F1898AE490082CFD8 /* Espanha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7341898AE490082CFD8 /* Espanha.jpg */; };
+		EB85D7401898AE490082CFD8 /* Euqador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7351898AE490082CFD8 /* Euqador.jpg */; };
+		EB85D7411898AE490082CFD8 /* Holanda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7361898AE490082CFD8 /* Holanda.jpg */; };
+		EB85D7421898AE490082CFD8 /* Inglaterra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7371898AE490082CFD8 /* Inglaterra.jpg */; };
+		EB85D7431898AE490082CFD8 /* Itália.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7381898AE490082CFD8 /* Itália.jpg */; };
+		EB85D7441898AE490082CFD8 /* Rússia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7391898AE490082CFD8 /* Rússia.jpg */; };
+		EB85D7451898AE490082CFD8 /* Uruguai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D73A1898AE490082CFD8 /* Uruguai.jpg */; };
+		EB85D7491898B2C80082CFD8 /* CadastroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB85D7471898B2C80082CFD8 /* CadastroViewController.m */; };
+		EB85D74A1898B2C80082CFD8 /* CadastroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7481898B2C80082CFD8 /* CadastroViewController.xib */; };
+		EB85D74D1898B7950082CFD8 /* BaralhoSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = EB85D74C1898B7950082CFD8 /* BaralhoSelect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +81,23 @@
 		9495837818983C0200C33CFF /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		9495837918983C0200C33CFF /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		9495837A18983C0200C33CFF /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		EB85D72D189898C90082CFD8 /* Background1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background1.jpeg; sourceTree = "<group>"; };
+		EB85D7301898AE490082CFD8 /* Alemanha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alemanha.jpg; sourceTree = "<group>"; };
+		EB85D7311898AE490082CFD8 /* Argentina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Argentina.jpg; sourceTree = "<group>"; };
+		EB85D7321898AE490082CFD8 /* Chile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chile.jpg; sourceTree = "<group>"; };
+		EB85D7331898AE490082CFD8 /* Colombia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Colombia.jpg; sourceTree = "<group>"; };
+		EB85D7341898AE490082CFD8 /* Espanha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Espanha.jpg; sourceTree = "<group>"; };
+		EB85D7351898AE490082CFD8 /* Euqador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Euqador.jpg; sourceTree = "<group>"; };
+		EB85D7361898AE490082CFD8 /* Holanda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Holanda.jpg; sourceTree = "<group>"; };
+		EB85D7371898AE490082CFD8 /* Inglaterra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inglaterra.jpg; sourceTree = "<group>"; };
+		EB85D7381898AE490082CFD8 /* Itália.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Itália.jpg"; sourceTree = "<group>"; };
+		EB85D7391898AE490082CFD8 /* Rússia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rússia.jpg"; sourceTree = "<group>"; };
+		EB85D73A1898AE490082CFD8 /* Uruguai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uruguai.jpg; sourceTree = "<group>"; };
+		EB85D7461898B2C80082CFD8 /* CadastroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CadastroViewController.h; sourceTree = "<group>"; };
+		EB85D7471898B2C80082CFD8 /* CadastroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CadastroViewController.m; sourceTree = "<group>"; };
+		EB85D7481898B2C80082CFD8 /* CadastroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CadastroViewController.xib; sourceTree = "<group>"; };
+		EB85D74B1898B7950082CFD8 /* BaralhoSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaralhoSelect.h; sourceTree = "<group>"; };
+		EB85D74C1898B7950082CFD8 /* BaralhoSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaralhoSelect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +157,8 @@
 		9495833F189836AA00C33CFF /* MemoryGame */ = {
 			isa = PBXGroup;
 			children = (
+				EB85D72F1898AE490082CFD8 /* Images */,
+				EB85D72D189898C90082CFD8 /* Background1.jpeg */,
 				9495836A189836D300C33CFF /* Controller */,
 				94958369189836D000C33CFF /* View */,
 				94958368189836CC00C33CFF /* Model */,
@@ -170,6 +204,8 @@
 			children = (
 				94958370189838E500C33CFF /* Baralho.h */,
 				94958371189838E500C33CFF /* Baralho.m */,
+				EB85D74B1898B7950082CFD8 /* BaralhoSelect.h */,
+				EB85D74C1898B7950082CFD8 /* BaralhoSelect.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -177,6 +213,7 @@
 		94958369189836D000C33CFF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EB85D7481898B2C80082CFD8 /* CadastroViewController.xib */,
 				9495837A18983C0200C33CFF /* GameViewController.xib */,
 				9495837518983B7D00C33CFF /* HighscoresViewController.xib */,
 				9495836D189836EA00C33CFF /* IndexViewController.xib */,
@@ -187,6 +224,8 @@
 		9495836A189836D300C33CFF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EB85D7461898B2C80082CFD8 /* CadastroViewController.h */,
+				EB85D7471898B2C80082CFD8 /* CadastroViewController.m */,
 				9495836B189836EA00C33CFF /* IndexViewController.h */,
 				9495836C189836EA00C33CFF /* IndexViewController.m */,
 				9495837318983B7D00C33CFF /* HighscoresViewController.h */,
@@ -195,6 +234,24 @@
 				9495837918983C0200C33CFF /* GameViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		EB85D72F1898AE490082CFD8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EB85D7301898AE490082CFD8 /* Alemanha.jpg */,
+				EB85D7311898AE490082CFD8 /* Argentina.jpg */,
+				EB85D7321898AE490082CFD8 /* Chile.jpg */,
+				EB85D7331898AE490082CFD8 /* Colombia.jpg */,
+				EB85D7341898AE490082CFD8 /* Espanha.jpg */,
+				EB85D7351898AE490082CFD8 /* Euqador.jpg */,
+				EB85D7361898AE490082CFD8 /* Holanda.jpg */,
+				EB85D7371898AE490082CFD8 /* Inglaterra.jpg */,
+				EB85D7381898AE490082CFD8 /* Itália.jpg */,
+				EB85D7391898AE490082CFD8 /* Rússia.jpg */,
+				EB85D73A1898AE490082CFD8 /* Uruguai.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,11 +329,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB85D7451898AE490082CFD8 /* Uruguai.jpg in Resources */,
 				9495836F189836EA00C33CFF /* IndexViewController.xib in Resources */,
+				EB85D73E1898AE490082CFD8 /* Colombia.jpg in Resources */,
+				EB85D7441898AE490082CFD8 /* Rússia.jpg in Resources */,
 				94958344189836AA00C33CFF /* InfoPlist.strings in Resources */,
 				9495834C189836AA00C33CFF /* Images.xcassets in Resources */,
+				EB85D7421898AE490082CFD8 /* Inglaterra.jpg in Resources */,
+				EB85D72E189898C90082CFD8 /* Background1.jpeg in Resources */,
+				EB85D73B1898AE490082CFD8 /* Alemanha.jpg in Resources */,
+				EB85D74A1898B2C80082CFD8 /* CadastroViewController.xib in Resources */,
+				EB85D73C1898AE490082CFD8 /* Argentina.jpg in Resources */,
+				EB85D7401898AE490082CFD8 /* Euqador.jpg in Resources */,
+				EB85D7431898AE490082CFD8 /* Itália.jpg in Resources */,
 				9495837718983B7D00C33CFF /* HighscoresViewController.xib in Resources */,
+				EB85D73D1898AE490082CFD8 /* Chile.jpg in Resources */,
+				EB85D73F1898AE490082CFD8 /* Espanha.jpg in Resources */,
 				9495837C18983C0200C33CFF /* GameViewController.xib in Resources */,
+				EB85D7411898AE490082CFD8 /* Holanda.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,9 +368,11 @@
 				9495834A189836AA00C33CFF /* AppDelegate.m in Sources */,
 				94958372189838E500C33CFF /* Baralho.m in Sources */,
 				94958346189836AA00C33CFF /* main.m in Sources */,
+				EB85D74D1898B7950082CFD8 /* BaralhoSelect.m in Sources */,
 				9495836E189836EA00C33CFF /* IndexViewController.m in Sources */,
 				9495837B18983C0200C33CFF /* GameViewController.m in Sources */,
 				9495837618983B7D00C33CFF /* HighscoresViewController.m in Sources */,
+				EB85D7491898B2C80082CFD8 /* CadastroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +575,7 @@
 				94958364189836AA00C33CFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94958365189836AA00C33CFF /* Build configuration list for PBXNativeTarget "MemoryGameTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +584,7 @@
 				94958367189836AA00C33CFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
