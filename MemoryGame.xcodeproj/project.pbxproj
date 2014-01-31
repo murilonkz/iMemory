@@ -32,7 +32,7 @@
 		EB85D73D1898AE490082CFD8 /* Chile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7321898AE490082CFD8 /* Chile.jpg */; };
 		EB85D73E1898AE490082CFD8 /* Colombia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7331898AE490082CFD8 /* Colombia.jpg */; };
 		EB85D73F1898AE490082CFD8 /* Espanha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7341898AE490082CFD8 /* Espanha.jpg */; };
-		EB85D7401898AE490082CFD8 /* Euqador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7351898AE490082CFD8 /* Euqador.jpg */; };
+		EB85D7401898AE490082CFD8 /* Equador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7351898AE490082CFD8 /* Equador.jpg */; };
 		EB85D7411898AE490082CFD8 /* Holanda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7361898AE490082CFD8 /* Holanda.jpg */; };
 		EB85D7421898AE490082CFD8 /* Inglaterra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7371898AE490082CFD8 /* Inglaterra.jpg */; };
 		EB85D7431898AE490082CFD8 /* Itália.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7381898AE490082CFD8 /* Itália.jpg */; };
@@ -40,7 +40,7 @@
 		EB85D7451898AE490082CFD8 /* Uruguai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB85D73A1898AE490082CFD8 /* Uruguai.jpg */; };
 		EB85D7491898B2C80082CFD8 /* CadastroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB85D7471898B2C80082CFD8 /* CadastroViewController.m */; };
 		EB85D74A1898B2C80082CFD8 /* CadastroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB85D7481898B2C80082CFD8 /* CadastroViewController.xib */; };
-		EB85D74D1898B7950082CFD8 /* BaralhoSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = EB85D74C1898B7950082CFD8 /* BaralhoSelect.m */; };
+		EBADFFF9189B0C8F00F525C1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EBADFFF8189B0C8F00F525C1 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +87,7 @@
 		EB85D7321898AE490082CFD8 /* Chile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chile.jpg; sourceTree = "<group>"; };
 		EB85D7331898AE490082CFD8 /* Colombia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Colombia.jpg; sourceTree = "<group>"; };
 		EB85D7341898AE490082CFD8 /* Espanha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Espanha.jpg; sourceTree = "<group>"; };
-		EB85D7351898AE490082CFD8 /* Euqador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Euqador.jpg; sourceTree = "<group>"; };
+		EB85D7351898AE490082CFD8 /* Equador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Equador.jpg; sourceTree = "<group>"; };
 		EB85D7361898AE490082CFD8 /* Holanda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Holanda.jpg; sourceTree = "<group>"; };
 		EB85D7371898AE490082CFD8 /* Inglaterra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Inglaterra.jpg; sourceTree = "<group>"; };
 		EB85D7381898AE490082CFD8 /* Itália.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Itália.jpg"; sourceTree = "<group>"; };
@@ -96,8 +96,7 @@
 		EB85D7461898B2C80082CFD8 /* CadastroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CadastroViewController.h; sourceTree = "<group>"; };
 		EB85D7471898B2C80082CFD8 /* CadastroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CadastroViewController.m; sourceTree = "<group>"; };
 		EB85D7481898B2C80082CFD8 /* CadastroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CadastroViewController.xib; sourceTree = "<group>"; };
-		EB85D74B1898B7950082CFD8 /* BaralhoSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaralhoSelect.h; sourceTree = "<group>"; };
-		EB85D74C1898B7950082CFD8 /* BaralhoSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaralhoSelect.m; sourceTree = "<group>"; };
+		EBADFFF8189B0C8F00F525C1 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +165,7 @@
 				94958349189836AA00C33CFF /* AppDelegate.m */,
 				9495834B189836AA00C33CFF /* Images.xcassets */,
 				94958340189836AA00C33CFF /* Supporting Files */,
+				EBADFFF8189B0C8F00F525C1 /* Settings.bundle */,
 			);
 			path = MemoryGame;
 			sourceTree = "<group>";
@@ -204,8 +204,6 @@
 			children = (
 				94958370189838E500C33CFF /* Baralho.h */,
 				94958371189838E500C33CFF /* Baralho.m */,
-				EB85D74B1898B7950082CFD8 /* BaralhoSelect.h */,
-				EB85D74C1898B7950082CFD8 /* BaralhoSelect.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -244,7 +242,7 @@
 				EB85D7321898AE490082CFD8 /* Chile.jpg */,
 				EB85D7331898AE490082CFD8 /* Colombia.jpg */,
 				EB85D7341898AE490082CFD8 /* Espanha.jpg */,
-				EB85D7351898AE490082CFD8 /* Euqador.jpg */,
+				EB85D7351898AE490082CFD8 /* Equador.jpg */,
 				EB85D7361898AE490082CFD8 /* Holanda.jpg */,
 				EB85D7371898AE490082CFD8 /* Inglaterra.jpg */,
 				EB85D7381898AE490082CFD8 /* Itália.jpg */,
@@ -330,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB85D7451898AE490082CFD8 /* Uruguai.jpg in Resources */,
+				EBADFFF9189B0C8F00F525C1 /* Settings.bundle in Resources */,
 				9495836F189836EA00C33CFF /* IndexViewController.xib in Resources */,
 				EB85D73E1898AE490082CFD8 /* Colombia.jpg in Resources */,
 				EB85D7441898AE490082CFD8 /* Rússia.jpg in Resources */,
@@ -340,7 +339,7 @@
 				EB85D73B1898AE490082CFD8 /* Alemanha.jpg in Resources */,
 				EB85D74A1898B2C80082CFD8 /* CadastroViewController.xib in Resources */,
 				EB85D73C1898AE490082CFD8 /* Argentina.jpg in Resources */,
-				EB85D7401898AE490082CFD8 /* Euqador.jpg in Resources */,
+				EB85D7401898AE490082CFD8 /* Equador.jpg in Resources */,
 				EB85D7431898AE490082CFD8 /* Itália.jpg in Resources */,
 				9495837718983B7D00C33CFF /* HighscoresViewController.xib in Resources */,
 				EB85D73D1898AE490082CFD8 /* Chile.jpg in Resources */,
@@ -368,7 +367,6 @@
 				9495834A189836AA00C33CFF /* AppDelegate.m in Sources */,
 				94958372189838E500C33CFF /* Baralho.m in Sources */,
 				94958346189836AA00C33CFF /* main.m in Sources */,
-				EB85D74D1898B7950082CFD8 /* BaralhoSelect.m in Sources */,
 				9495836E189836EA00C33CFF /* IndexViewController.m in Sources */,
 				9495837B18983C0200C33CFF /* GameViewController.m in Sources */,
 				9495837618983B7D00C33CFF /* HighscoresViewController.m in Sources */,

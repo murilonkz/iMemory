@@ -40,8 +40,13 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
-    CadastroViewController *view = [[CadastroViewController alloc] init];
-    [self presentViewController:view animated:YES completion:nil];
+    NSUserDefaults *userDef = [NSUserDefaults standardUserDefaults];
+    NSString *nome = [userDef objectForKey:@"Nome"];
+    if (nome == NULL || [nome isEqualToString:@""])
+    {
+        CadastroViewController *view = [[CadastroViewController alloc] init];
+        [self presentViewController:view animated:YES completion:nil];
+    }
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,12 +7,14 @@
 //
 
 #import "CadastroViewController.h"
-#import "BaralhoSelect.h"
+#import "IndexViewController.h"
 @interface CadastroViewController ()
 
 @end
 
 @implementation CadastroViewController
+@synthesize inptNome, pickerBaralho;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,11 +29,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-    BaralhoSelect *myPickerView = [[BaralhoSelect alloc] initWithFrame:CGRectMake(0, 200, 320, 200)];
-    myPickerView.delegate = self;
-    myPickerView.showsSelectionIndicator = YES;
-    [self.view addSubview:myPickerView];
+    
+    NSUserDefaults *userDef = [NSUserDefaults standardUserDefaults];
+    NSString *nome = [userDef objectForKey:@"Nome"];
+    inptNome.text = nome;
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,35 +41,18 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)pickerView:(UIPickerView *)pickerView didSelectRow: (NSInteger)row inComponent:(NSInteger)component {
-    // Handle the selection
-}
 
-// tell the picker how many rows are available for a given component
-- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
-    NSUInteger numRows = 5;
+- (IBAction)btnCadastrar:(id)sender {
+    NSUserDefaults *userDef = [NSUserDefaults standardUserDefaults];
     
-    return numRows;
-}
-
-// tell the picker how many components it will have
-- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
-    return 1;
-}
-
-// tell the picker the title for a given component
-- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
-    NSString *title;
-    title = [@"" stringByAppendingFormat:@"%d",row];
+    NSString *nome = [userDef objectForKey:@"Nome"];
     
-    return title;
-}
-
-// tell the picker the width of each row for a given component
-- (CGFloat)pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component {
-    int sectionWidth = 300;
+    nome = inptNome.text;
+    [userDef setValue:nome forKey:@"Nome"];
     
-    return sectionWidth;
+    [userDef synchronize];
+    
+    IndexViewController *view = [[IndexViewController alloc] init];
+    [self presentViewController:view animated:YES completion:nil];
 }
-
 @end

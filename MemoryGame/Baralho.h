@@ -9,5 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface Baralho : NSObject
-
+- (NSMutableArray*) montarCartasViradas;
+- (NSMutableArray *) embaralhar: (NSMutableArray*) nArray;
 @end
+
+
+
+
+int qtdCartas;
+UIImage *cartaVirada;

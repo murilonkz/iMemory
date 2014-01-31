@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface CadastroViewController : UIViewController<UIPickerViewDelegate>
+- (IBAction)btnCadastrar:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *inptNome;
+@property (weak, nonatomic) IBOutlet UIPickerView *pickerBaralho;
 
 
 @end

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface GameViewController : UIViewController
-
+- (void) mostrarCarta: (UIGestureRecognizer *)gestureRecognizer;
 @end
